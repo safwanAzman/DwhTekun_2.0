@@ -29,7 +29,7 @@
 
     </head>
 
-    <body>
+    <body class="bg-gradient-to-br from-gray-900 to-black">
         @yield('body')
 
         @livewireScripts
