@@ -58,7 +58,21 @@
                                         <div class="p-3">
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3">Dana Tekun</p>
-                                                <p class="text-sm text-blue-500 font-semibold">RM 2,843,599,962</p>
+                                                <p class="text-sm text-blue-500 font-semibold"></p>
+                                                <button class="text-sm text-blue-500 font-semibold" type="button" 
+                                                        data-title='
+                                                        PRODUK 
+                                                        <br>
+                                                        TEKUN NIAGA : RM 100,000,000
+                                                        <br>
+                                                        TEMAN TEKUN : RM 90,000,000
+                                                        <br>
+                                                        KONTRAK-i : RM 100,000,000	
+                                                        <br>
+                                                        PROGRAM KHAS : RM 30,000,000' 
+                                                        data-placement="bottom" >
+                                                    RM 2,843,599,962
+                                                </button>
                                             </div>
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 dark:text-gray-400 text-xs font-normal leading-3 tracking-normal">DANA KHAS EPU SPUMI</p>
@@ -91,7 +105,20 @@
                                         <div class="p-3">
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3">Dana Tekun</p>
-                                                <p class="text-sm text-yellow-400 font-semibold">RM 2,843,599,962</p>
+                                                <button class="text-sm text-yellow-400 font-semibold" type="button" 
+                                                        data-title='
+                                                        PRODUK 
+                                                        <br>
+                                                        TEKUN NIAGA : RM 19,906,000
+                                                        <br>
+                                                        TEMAN TEKUN : RM 3,552,000
+                                                        <br>
+                                                        KONTRAK-i : RM 11,965,000	
+                                                        <br>
+                                                        PROGRAM KHAS : RM 2,125,000' 
+                                                        data-placement="bottom" >
+                                                    RM 2,843,599,962
+                                                </button>
                                             </div>
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 dark:text-gray-400 text-xs font-normal leading-3 tracking-normal">DANA KHAS EPU SPUMI</p>
@@ -124,7 +151,20 @@
                                         <div class="p-3">
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3">Dana Tekun</p>
-                                                <p class="text-sm text-pink-500 font-semibold">RM 2,843,599,962</p>
+                                                <button class="text-sm text-pink-500 font-semibold" type="button" 
+                                                        data-title='
+                                                        PRODUK 
+                                                        <br>
+                                                        TEKUN NIAGA : RM 80,094,000
+                                                        <br>
+                                                        TEMAN TEKUN : RM 86,448,000
+                                                        <br>
+                                                        KONTRAK-i : RM 88,035,000	
+                                                        <br>
+                                                        PROGRAM KHAS : RM 27,875,000' 
+                                                        data-placement="bottom" >
+                                                    RM 2,843,599,962
+                                                </button>
                                             </div>
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 dark:text-gray-400 text-xs font-normal leading-3 tracking-normal">DANA KHAS EPU SPUMI</p>

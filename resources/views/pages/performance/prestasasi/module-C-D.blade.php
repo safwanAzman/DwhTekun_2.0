@@ -162,18 +162,3 @@
         <!-- END of Module E -->
     </tbody>
 </table>
-
-
-@push('js')
-<script>
-	tippy('button', {
-        content:(reference)=>reference.getAttribute('data-title'),
-        onMount(instance) {
-            instance.popperInstance.setOptions({
-            placement :instance.reference.getAttribute('data-placement')
-            });
-        },
-        allowHTML: true,
-    });
-</script>
-@endpush

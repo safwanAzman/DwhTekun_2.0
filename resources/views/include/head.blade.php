@@ -66,5 +66,16 @@
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.22/b-1.6.4/b-flash-1.6.4/b-html5-1.6.4/b-print-1.6.4/datatables.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     @stack('js')
+    <script>
+	tippy('button', {
+        content:(reference)=>reference.getAttribute('data-title'),
+        onMount(instance) {
+            instance.popperInstance.setOptions({
+            placement :instance.reference.getAttribute('data-placement')
+            });
+        },
+        allowHTML: true,
+    });
+    </script>
 </body>
 </html>
