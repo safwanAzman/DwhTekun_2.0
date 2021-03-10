@@ -12,7 +12,7 @@
                                 <div class="flex flex-col lg:flex-row mx-auto w-full bg-white dark:bg-gray-800 shadow rounded">
                                     <div class="w-full lg:w-1/3 border-t border-b lg:border-t-0 lg:border-b-0 sm:border-l sm:border-r border-gray-300">
                                         <div class="flex items-center justify-between mt-0">
-                                            <div class="w-full bg-red-500 py-3 px-3 flex justify-between">
+                                            <div class="w-full bg-teal-500 py-3 px-3 flex justify-between">
                                                 <div>
                                                     <p class="text-base text-white mb-1">DANA (1999 - 2021)</p>
                                                     <h2 class="text-sm xl:text-lg text-white font-bold ">RM 4,662,123,458</h2>
@@ -25,20 +25,20 @@
                                         <div class="p-3">
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3">Dana Tekun</p>
-                                                <p class="text-sm text-red-500 font-semibold">RM 2,843,599,962</p>
+                                                <p class="text-sm text-teal-500 font-semibold">RM 2,843,599,962</p>
                                             </div>
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 dark:text-gray-400 text-xs font-normal leading-3 tracking-normal">DANA KHAS EPU SPUMI</p>
-                                                <p class="text-sm text-red-500 font-semibold">RM 314,000,000</p>
+                                                <p class="text-sm text-teal-500 font-semibold">RM 314,000,000</p>
                                             </div>
                                             
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3">CBRM</p>
-                                                <p class="text-sm text-red-500 font-semibold">RM 200,000,000</p>
+                                                <p class="text-sm text-teal-500 font-semibold">RM 200,000,000</p>
                                             </div>
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3 ">TBRS</p>
-                                                <p class="text-sm text-red-500 font-semibold">RM 100,000,000</p>
+                                                <p class="text-sm text-teal-500 font-semibold">RM 100,000,000</p>
                                             </div>
                                         </div>
                                     </div>
@@ -111,7 +111,7 @@
 
                                     <div class="w-full lg:w-1/3 border-t border-b lg:border-t-0 lg:border-b-0 sm:border-l sm:border-r border-gray-300">
                                         <div class="flex items-center justify-between mt-0">
-                                            <div class="w-full bg-teal-500 py-3 px-3 flex justify-between">
+                                            <div class="w-full bg-pink-500 py-3 px-3 flex justify-between">
                                                 <div>
                                                     <p class="text-base text-white mb-1">BALANCE</p>
                                                     <h2 class="text-sm xl:text-lg text-white font-bold ">RM 583,409,000</h2>
@@ -124,20 +124,20 @@
                                         <div class="p-3">
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3">Dana Tekun</p>
-                                                <p class="text-sm text-teal-500 font-semibold">RM 2,843,599,962</p>
+                                                <p class="text-sm text-pink-500 font-semibold">RM 2,843,599,962</p>
                                             </div>
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 dark:text-gray-400 text-xs font-normal leading-3 tracking-normal">DANA KHAS EPU SPUMI</p>
-                                                <p class="text-sm text-teal-500 font-semibold">RM 1,080,000</p>
+                                                <p class="text-sm text-pink-500 font-semibold">RM 1,080,000</p>
                                             </div>
                                             
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3">CBRM</p>
-                                                <p class="text-sm text-teal-500 font-semibold">RM 200,000,000</p>
+                                                <p class="text-sm text-pink-500 font-semibold">RM 200,000,000</p>
                                             </div>
                                             <div class="mb-4 flex items-center justify-between">
                                                 <p class="text-gray-600 text-sm leading-3 ">TBRS</p>
-                                                <p class="text-sm text-teal-500 font-semibold">RM 99,877,000</p>
+                                                <p class="text-sm text-pink-500 font-semibold">RM 99,877,000</p>
                                             </div>
                                         </div>
                                     </div>
