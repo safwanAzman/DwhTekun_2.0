@@ -9,11 +9,16 @@ use App\Http\Livewire\Auth\Passwords\Reset;
 use App\Http\Livewire\Auth\Register;
 use App\Http\Livewire\Auth\Verify;
 use Illuminate\Support\Facades\Route;
+use App\Http\Middleware\AuthenticatedUser;
+use App\Http\Controllers\AuthenticationUser;
+use Illuminate\Support\Facades\Redirect;
+
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\laksana\LaksanaController;
 use App\Http\Controllers\performance\PrestasiKeseluruhanController;
 use App\Http\Controllers\usahawan\UsahawanController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -26,30 +31,22 @@ use App\Http\Controllers\usahawan\UsahawanController;
 |
 */
 
-Route::view('/', 'welcome')->name('home');
+//oracle production login
+Route::get('/logmasuk', [AuthenticationUser::class, 'logmasuk'])->name('logmasuk');
+Route::post('/loggingin', [AuthenticationUser::class, 'loggingin'])->name('loggingin');
+Route::post('/systemlogin?userid={userid}&password={password}', [AuthenticationUser::class, 'systemLogin']);
+Route::get('/logkeluar', [AuthenticationUser::class, 'logkeluar'])->name('logkeluar');
+Route::get('/emandate-auth', 'Bypasslogin@loggingin2');
 
-Route::middleware('guest')->group(function () {
-    Route::get('login', Login::class) ->name('login');
+Route::get('/loginterus/{userId}/{password}',function($userId,$password){
 
-    Route::get('register', Register::class)->name('register');
+$a = session(['key' => 'value']);
 
+dd(session()->get('key'));
 });
 
-Route::get('password/reset', Email::class)->name('password.request');
-
-Route::get('password/reset/{token}', Reset::class)->name('password.reset');
-
-
-Route::middleware('auth')->group(function () {
-    Route::get('home', [DashboardController::class, 'index'])->name('home');
-    Route::get('email/verify', Verify::class)->middleware('throttle:6,1')->name('verification.notice');
-    Route::get('password/confirm', Confirm::class)->name('password.confirm');
-    Route::get('email/verify/{id}/{hash}', EmailVerificationController::class)->middleware('signed')->name('verification.verify');
-    Route::post('logout', LogoutController::class)->name('logout');
-});
-
-Route::middleware('auth')->group(function () {
-    
+Route::middleware([AuthenticatedUser::class])->group(function() {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('laksana', [LaksanaController::class, 'index'])->name('laksana');
 
     // performance
