@@ -12,7 +12,7 @@
                 <ul class="mt-6 leading-10">
 
                     {{-- START DASHBOARD --}}
-                    <x-sidebar.nav-item title="DASHBOARD" route="{{route('home')}}" uri="home">
+                    <x-sidebar.nav-item title="DASHBOARD" route="{{route('dashboard')}}" uri="/">
                         <x-heroicon-o-chart-pie class="w-7 h-7" />
                     </x-sidebar.nav-item>
                     {{-- END DASHBOARD --}}
